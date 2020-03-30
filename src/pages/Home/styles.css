@@ -1,0 +1,43 @@
+body{
+    background-color: #AC42FF ;
+}
+.container{
+    width: 100%;
+    max-width: 1080px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .something{
+    font-family: Koeltoerals;
+    font-size: 120px;
+    transition: color 0.4s;
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.links{
+    align-items: right;
+    text-align: right;
+    margin-right: 80px;
+
+
+    
+}
+.button{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: color 0.4s;
+    align-items: right;
+
+
+}
+.button:hover{
+    color: black;
+}
