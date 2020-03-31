@@ -1,24 +1,26 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import './styles.css';
-
-import { FiLogIn } from 'react-icons/fi';
-import api from '../../services/api';
+import '../../global.css';
 import Helmet from 'react-helmet';
-export default function Sobre(){
-    const [id, setId] = useState();
-    const history = useHistory();
-    async function handleLogin(e){
-        e.preventDefault();
-    }
+
+
+export default function Projetos(){
+    
+async function handleRegister(e){
+    e.preventDefault();
+}
+
+
+
+
+
     return (
     <div>
-        <Helmet>
-            <title>DSG - Sobre</title>
-        </Helmet>
+        <Helmet><title>DSG - Projetos</title></Helmet>
         <div className="container">
             <div className="content">
-                <div className="something">sobre</div>
+                <div className="something">projetos</div>
                 <div className="links">
                 <div><Link className="button" to="/">voltar</Link></div>
                             
@@ -26,5 +28,7 @@ export default function Sobre(){
             </div>
         </div>
     </div>
+    
+    
     );
 }

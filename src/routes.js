@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Register from './pages/Register';
-import Profile from './pages/Profile';
-import NewIncident from './pages/NewIncident';
+import Projetos from './pages/Projetos';
+import Contatos from './pages/Contatos';
+import Sociais from './pages/Sociais';
 import Sobre from './pages/Sobre'
 
 export default function Routes(){
@@ -12,10 +12,10 @@ export default function Routes(){
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/register" component={Register} />
+                <Route path="/projetos" component={Projetos} />
                 <Route path="/sobre" component={Sobre} />
-                <Route path="/profile" component={Profile} />
-                <Route path="/incidents/new" component={NewIncident} />
+                <Route path="/contatos" component={Contatos} />
+                <Route path="/sociais" component={Sociais} />
             </Switch>
 
         </BrowserRouter>
