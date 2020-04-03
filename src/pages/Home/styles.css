@@ -1,6 +1,7 @@
 body{
     background-color: #AC42FF ;
 }
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Comfortaa:wght@300;400;500;600&family=Comic+Neue:wght@300;400&display=swap');
 .container{
     width: 100%;
     max-width: 1080px;
@@ -13,6 +14,11 @@ body{
 .container .something{
     font-family: Koeltoerals;
     font-size: 120px;
+    transition: color 0.4s;
+}
+.container .sigla{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 30px;
     transition: color 0.4s;
 }
 

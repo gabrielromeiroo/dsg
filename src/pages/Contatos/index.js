@@ -1,32 +1,22 @@
-import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+//Import
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import '../../global.css';
 import Helmet from 'react-helmet';
-
-
-export default function Contatos(){
-    
-async function handleRegister(e){
-    e.preventDefault();
-}
-
-
-
+//Page
+export default function Contato(){
     return (
-    <div>
-        <Helmet>
-            <title>DSG - Contatos</title>
-        </Helmet>
-        <div className="container">
-            <div className="content">
-                <div className="something">contatos</div>
-                <div className="links">
-                <div><Link className="button" to="/">voltar</Link></div>
-                            
+        <div>
+            <Helmet><title>DSG - Contato</title></Helmet>
+            <div className="container">
+                <div className="content">
+                    <div className="something">contato</div>
+                    <div className="links">
+                    <div><Link className="button" to="/">voltar</Link></div>            
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     );
 }

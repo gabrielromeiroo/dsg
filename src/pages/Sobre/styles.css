@@ -13,7 +13,25 @@
     font-size: 120px;
     transition: color 0.4s;
 }
-
+.container p{
+    font-family: Comfortaa;
+    font-size: 1.5rem;
+    transition: color 0.4s;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.container p + p{
+    font-family: Comfortaa;
+    font-size: 1.5rem;
+    transition: color 0.4s;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+.teste{
+    font-size: 50px;
+}
 .content{
     width: 100%;
     text-align: center;
@@ -24,8 +42,6 @@
     text-align: right;
     margin-right: 80px;
 
-
-    
 }
 .button{
     text-decoration: none;
